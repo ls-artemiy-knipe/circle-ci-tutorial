@@ -9,3 +9,6 @@ jobs:
     steps:
       - checkout
       - run: echo "Hello, world\!"
+      - run: echo "SECRET, $SECRET"
+      - run: echo "PUBLIC, $PUBLIC"
+      - run: echo "A, $A"
